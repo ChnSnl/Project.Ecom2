@@ -18,4 +18,10 @@
     <ProjectReference Include="..\Project.BLL\Project.BLL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\AppUsers\" />
+    <Folder Include="Models\PageVms\" />
+    <Folder Include="Views\Shopping\" />
+  </ItemGroup>
+
 </Project>
