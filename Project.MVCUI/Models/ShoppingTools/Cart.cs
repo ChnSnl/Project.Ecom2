@@ -17,7 +17,7 @@ namespace Project.MVCUI.Models.ShoppingTools
 
         [JsonProperty("GetCartItems")]
         public List<CartItem> GetCartItems
-        {
+        { 
             get
             {
                 return _myCart.Values.ToList();
